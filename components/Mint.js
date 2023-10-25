@@ -71,7 +71,7 @@ function Mint() {
         <div className="flex flex-col justify-center items-center space-y-4 z-10 w-full px-5">
           {!address ? (
             <>
-              <h1 className="text-2xl sm:text-3xl">pomedoge minting dapp</h1>
+              <h1 className="text-2xl sm:text-3xl">CyberRhinoSquad minting</h1>
               <button className="btns w-fit " onClick={openConnectModal}>
                 Connect Wallet
               </button>

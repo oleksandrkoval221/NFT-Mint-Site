@@ -6,7 +6,7 @@ function Header() {
     <div className="w-full h-20 flex justify-between items-center p-5 absolute top-0 text-black">
       <div>
         <div className="pt-5">
-          <Image src={"/assets/logo.png"} width={390} height={74} alt="pomedoge"/>
+          <Image src={"/assets/logo.png"} width={100} height={74} alt="CyberRhinoSquad"/>
         </div>
       </div>
 {/* 

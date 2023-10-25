@@ -1,9 +1,6 @@
 {
   "name": "nextjs-dapp",
-  "description": "Created By Fazel Pejmanfar\n do the design yourself :|",
-  "author": {
-    "name": "Fazel Pejmanfar"
-  },
+  "description": "CyberRhinoSquad MINT site",
   "license": "MIT",
   "version": "0.1.0",
   "private": false,

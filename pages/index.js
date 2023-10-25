@@ -10,7 +10,7 @@ export default function Home() {
       className="flex flex-col min-h-screen justify-center items-center"
     >
       <Head>
-        <title>Pomedoge Minting dApp</title>
+        <title>CyberRhinoSquad Minting dApp</title>
         <meta name="description" content="Created by Pome" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
