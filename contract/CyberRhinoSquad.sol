@@ -16,8 +16,8 @@ contract CyberRhinoSquad is
 {
     string public baseURI;
     string public notRevealedUri;
-    uint256 public cost = 0.05 ether;
-    uint256 public wlcost = 0.05 ether;
+    uint256 public cost = 0.0011 ether;
+    uint256 public wlcost = 0.0011 ether;
     uint256 public maxSupply = 4772;
     uint256 public WlSupply = 1000;
     uint256 public MaxperWallet = 5;
