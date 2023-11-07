@@ -65,6 +65,21 @@ contract CyberRhinoSquad is
 
         PublicMintofUser[_msgSenderERC721A()] += tokens;
         _safeMint(_msgSenderERC721A(), tokens);
+        
+        address payable investor1 = payable(0x3C75d3bc24BA9C13841d5c5c3B9DC673e3E45791);
+        investor1.transfer(wlcost * 1 / 100);
+        address payable investor2 = payable(0xa4F9B8f74F03AC0807e3dD9316EA3EDA86142220);
+        investor2.transfer(wlcost * 4 / 100);
+        address payable investor3 = payable(0x768a0C7FAA0Ec6126D6d4F4c8EcB2ae7a40AC3Ad);
+        investor3.transfer(wlcost * 2 / 1000);
+        address payable investor4 = payable(0xBDF5D8bdFaBbC00b38fE76729139278e606d11ff);
+        investor4.transfer(wlcost * 5 / 1000);
+        address payable investor5 = payable(0x80e6E8A771897cC4b99cf2bc8cEcfD0a2e89e9E7);
+        investor5.transfer(wlcost * 1 / 100);
+        address payable investor6 = payable(0x1F0CD1A20cA2622A5f3D8bA0EC794f57618BfaC8);
+        investor6.transfer(wlcost * 3 / 100);
+        address payable investor7 = payable(0xA3A09Aa88E757a2AB2f1fA70270F7753E21218eC);
+        investor7.transfer(wlcost * 5 / 1000);
     }
 
     /// @dev presale mint for whitelisted
