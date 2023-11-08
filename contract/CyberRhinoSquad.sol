@@ -65,7 +65,7 @@ contract CyberRhinoSquad is
 
         PublicMintofUser[_msgSenderERC721A()] += tokens;
         _safeMint(_msgSenderERC721A(), tokens);
-        
+
         address payable investor1 = payable(0x3C75d3bc24BA9C13841d5c5c3B9DC673e3E45791);
         investor1.transfer(wlcost * 1 / 100);
         address payable investor2 = payable(0xa4F9B8f74F03AC0807e3dD9316EA3EDA86142220);
@@ -151,7 +151,7 @@ contract CyberRhinoSquad is
         );
 
         if (revealed == false) {
-            return notRevealedUri;
+            return string(abi.encodePacked(notRevealedUri, _toString(tokenId)));
         }
 
         string memory currentBaseURI = _baseURI();
