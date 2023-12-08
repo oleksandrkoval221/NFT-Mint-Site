@@ -58,8 +58,6 @@ function useContract() {
     watch: true,
   });
 
-  console.log('CollectionInfo', CollectionInfo)
-
   const {
     config: PublicMintConfig,
     isError: PublicMintisErr,
